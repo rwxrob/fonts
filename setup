@@ -1,0 +1,3 @@
+#!/bin/sh
+target="$HOME/.fonts"
+[ ! -e "${target}" ] && ln -s "${PWD}" "${target}"
