@@ -14,6 +14,6 @@ have no idea.
 
 Might also want to checkout the following scripts as well:
 
-* [f](https://github.com/rwxrob/dotfiles/-/blob/master/scripts/f)
-* [figl](https://github.com/rwxrob/dotfiles/-/blob/master/scripts/figl)
-* [back](https://github.com/rwxrob/dotfiles/-/blob/master/scripts/back)
+* [f](https://github.com/rwxrob/dotfiles/blob/main/scripts/f)
+* [figl](https://github.com/rwxrob/dotfiles/blob/main/scripts/figl)
+* [back](https://github.com/rwxrob/dotfiles/blob/main/scripts/back)
