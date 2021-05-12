@@ -4,4 +4,4 @@ mkdir "$HOME/.local/share" 2>/dev/null
 mkdir "$HOME/.local/share/fonts" 2>/dev/null
 target="$HOME/.local/share/fonts"
 cp ttf/* otf/* woff/* "${target}"
-cp -r figlet "${target}"
+test -d /usr/share/figlet && sudo cp -r figlet/* /usr/share/figlet
