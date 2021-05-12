@@ -1,3 +1,5 @@
 #!/bin/sh
-target="$HOME/.fonts"
-[ ! -e "${target}" ] && ln -s "${PWD}" "${target}"
+mkdir "$HOME/.local" 2>/dev/null
+mkdir "$HOME/.local/share" 2>/dev/null
+target="$HOME/.local/share/fonts"
+test ! -e "${target}" && ln -s "${PWD}" "${target}"
