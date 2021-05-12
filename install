@@ -1,5 +1,7 @@
 #!/bin/sh
 mkdir "$HOME/.local" 2>/dev/null
 mkdir "$HOME/.local/share" 2>/dev/null
+mkdir "$HOME/.local/share/fonts" 2>/dev/null
 target="$HOME/.local/share/fonts"
-test ! -e "${target}" && ln -s "${PWD}" "${target}"
+cp ttf/* otf/* woff/* "${target}"
+cp -r figlet "${target}"
